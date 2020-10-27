@@ -11,26 +11,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
     <title>Flip Yo Bg Color</title>  <!--Document's title-->
 
-    <!-- styles -->
+    <!-- Link the stylesheet -->
     <link rel="stylesheet" href="styles.css" />
-  </head>
+  </head> <!-- closing head tag -->
 
-  <body>
-    <nav>
-      <div class="nav-center">
-        <h4>color flipper</h4>
-        <ul class="nav-links">
-          <li><a href="flip.html">Home</a></li>
-        </ul>
-      </div>
-    </nav>
+  <body> <!-- opening body tag -->
+    <nav> <!-- The nav tag is used in HTML to create navigation links in the document -->
+	  <!-- This div tag is used to wrap a menu item or navigation bar on the page -->
+      <div class="nav-center"> 
+        <h4>Flip Yo Bg Color</h4> <!-- a menu item name -->
+        <!-- Unordered list tag with the class nav-links, this takes care of navigation links in the html doc. -->
+		<ul class="nav-links"> 
+          <li><a href="flip.html">Home</a></li>  <!-- a ul child that resets the page to default landing page --> 
+        </ul>  <!-- closing ul tag - line 24 -->
+      </div>  <!-- closing div tag - line 21 -->
+    </nav> <!-- closing nav tag - line 19 -->
+	
+	<!-- main document -->
     <main>
       <div class="container">
-        <h2>background color : <span class="color">#f1f5f8</span></h2>
-        <button class="btn btn-hero" id="btn">click me</button>
+	  <!-- A span tag can be used to set color/background color a part of a text-->
+        <h2>Flip Yo Bg color : <span class="color">#E3E3E3</span></h2> 
+		<!-- Button tag used for the background color change -->
+        <button class="btn btn-hero" id="btn">Change Color</button> 
       </div>
     </main>
-    <!-- javascript -->
+    <!-- linking the javascript file. -->
     <script src="flip.js"></script>
   </body>
 </html>
+
+<!--Reference: https://www.w3schools.com/tags/tag_meta.asp -->
